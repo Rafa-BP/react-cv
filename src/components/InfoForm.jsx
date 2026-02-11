@@ -21,7 +21,7 @@ function InfoForm({info, setInfo}) {
             <input type="email" id="email" onChange={HandleChange}/>
 
             <label htmlFor="phone">Your Phone:</label>
-            <input type="number" id="phone" onChange={HandleChange}/>
+            <input type="tel" id="phone" onChange={HandleChange}/>
             
             <br />
 

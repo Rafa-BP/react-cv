@@ -70,17 +70,15 @@ input:invalid {
     margin: 0;
 }
 
-
-
 #resume {
     grid-column: 2/3;
     grid-row: 2/3;
 
-    width: 60%;
-    height: 90%;
+    width: 50%;
 
-    margin: 5% 20% 5% 20%;
-    padding: 1rem;
+    margin: 5% 25% 5% 25%;
+    padding: 1rem 2rem 1rem 2rem;
 
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(241, 241, 241);
+    text-align: start;
 }
