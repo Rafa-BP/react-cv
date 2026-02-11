@@ -2,7 +2,7 @@ import Header from './components/Header'
 import InfoForm from './components/InfoForm'
 import Resume from './components/Resume'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
@@ -12,6 +12,8 @@ function App() {
         company: "", position: "", responsability: "",
         startDate: "", endDate: ""
     })
+
+    useEffect(() => {document.title = "Resume Generator"})
 
   return (
     <>
